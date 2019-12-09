@@ -1,21 +1,6 @@
-function Word(character) {
-    this.character = character
-    this.guessYet = false
-    this.print = function () {
-        if (this.guessYet == true) {
-            console.log("YESH")
-            return this.character
+const Letter = require('./letter');
 
-        } else {
-            console.log("NOPE")
-            return "_"
-        }
-    }
-    this.check = function (guess) {
-        if (guess == this.character) {
-            this.guessYet = true
-
-        }
-    }
-
-}
+function Word(selectedWord)
+this.splitWordArray = []
+this.word = selectedWord
+for (var i = 0; i < (this.word.length); i++) {}}

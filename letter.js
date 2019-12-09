@@ -19,7 +19,7 @@ function Letter(character) {
     }
 
 }
-
+module.export.Letter = Letter
 let a = new Letter('a')
 let b = new Letter('b')
 let c = new Letter('c')
